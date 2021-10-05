@@ -1,14 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<FrameLayout
+<android.support.wear.widget.BoxInsetLayout
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  android:padding="8dp">
+  xmlns:app="http://schemas.android.com/apk/res-auto">
 
-  <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Hello World!"/>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:padding="8dp"
+      app:boxedEdges="all">
 
-</FrameLayout>
+    <TextView
+      android:id="@+id/mealTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:text="@string/meal_title"
+      android:textSize="18sp"
+      android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="@string/number_of_calories"/>
+    <TextView
+      android:id="@+id/ingredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:paddingTop="8dp"
+      android:text="@string/ingredients"/>
+  </LinearLayout>
+
+</android.support.wear.widget.BoxInsetLayout>

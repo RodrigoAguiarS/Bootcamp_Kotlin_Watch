@@ -3,4 +3,7 @@
   <string name="app_name">Bootcamp_Watch</string>
   <string name="calories">%1$d calories</string>
   <string name="starred_meal">Meal Starred!</string>
+    <string name="meal_title">Meal Title</string>
+    <string name="number_of_calories">Number of calories</string>
+  <string name="ingredients">Ingredients</string>
 </resources>
