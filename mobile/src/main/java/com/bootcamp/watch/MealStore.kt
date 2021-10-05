@@ -3,6 +3,7 @@ package com.bootcamp.watch
 import android.content.Context
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import com.rodrigo.shared.Meal
 import java.io.BufferedReader
 import java.io.InputStreamReader
 

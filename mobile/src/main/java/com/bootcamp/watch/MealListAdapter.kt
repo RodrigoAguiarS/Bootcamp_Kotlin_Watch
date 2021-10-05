@@ -4,11 +4,12 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.rodrigo.shared.Meal
 import kotlinx.android.synthetic.main.adapter_meal.view.*
 
 class MealListAdapter(
-    private val meals: MutableList<Meal>,
-    private val callback: Callback?
+  private val meals: MutableList<Meal>,
+  private val callback: Callback?
 ) : RecyclerView.Adapter<MealListAdapter.MealViewHolder>() {
 
   override fun onBindViewHolder(holder: MealViewHolder, position: Int) {

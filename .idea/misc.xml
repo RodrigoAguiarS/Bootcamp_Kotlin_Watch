@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Rodri/Desktop/06_Bootcamp_Kotlin_Watch/mobile/src/main/res/layout/activity_main.xml" value="0.23541666666666666" />
+        <entry key="..\:/Users/Rodri/Desktop/06_Bootcamp_Kotlin_Watch/mobile/src/main/res/layout/adapter_meal.xml" value="0.23541666666666666" />
         <entry key="..\:/Users/Rodri/Desktop/06_Bootcamp_Kotlin_Watch/wear/src/main/res/layout/activity_meal.xml" value="1.0970394736842106" />
       </map>
     </option>
